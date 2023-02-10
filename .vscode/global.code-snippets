@@ -1,0 +1,56 @@
+{
+  "vue3 setup": {
+    "prefix": "vset",
+    "body": [
+      "<template>",
+      "  <div class='container'></div>",
+      "</template>\n",
+      "<script lang='ts' setup>",
+      "</script>\n",
+      "<style scoped lang=\"${1:less}\"></style>\n"
+    ],
+    "description": "Create vue template"
+  },
+  "vue3 defineComponent": {
+    "prefix": "vue3",
+    "body": [
+      "<template>",
+      "  <div>\n",
+      "  </div>",
+      "</template>\n",
+      "<script lang='ts'>",
+      "import { defineComponent } from 'vue'",
+      "export default defineComponent({});",
+      "</script>\n",
+      "<style scoped lang=\"${1:less}\"></style>\n"
+    ],
+    "description": "Create vue template"
+  },
+  "react": {
+    "prefix": "rset",
+    "body": [
+      "import React, { useState } from 'react';\n",
+      "const component: React.FC = () => {",
+      " return <div></div>;\n",
+      "}",
+      "export default component;"
+    ],
+    "description": "Create react template"
+  },
+  "Print to console": {
+    "prefix": "cl",
+    "body": [
+      "console.log();"
+    ],
+    "description": "Log output to console"
+  },
+  "Print to arrow function": {
+    "scope": "javascript,typescript",
+    "prefix": "asy",
+    "body": [
+      "async () => {\n",
+      "}"
+    ],
+    "description": "Log output to console"
+  }
+}
