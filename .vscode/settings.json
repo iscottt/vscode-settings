@@ -1,8 +1,6 @@
 {
   // Visuals
-  "workbench.colorTheme": "Monokai Pro (Filter Machine)",
-  "workbench.preferredDarkColorTheme": "Vitesse Dark",
-  "workbench.preferredLightColorTheme": "Vitesse Light",
+  "workbench.colorTheme": "Monokai Pro",
   "workbench.productIconTheme": "icons-carbon",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.fontAliasing": "antialiased",
@@ -160,13 +158,12 @@
       "stash": true
     }
   },
-  "svg.preview.mode": "svg",
   "volar.autoCompleteRefs": false,
   "volar.codeLens.pugTools": false,
   "volar.codeLens.scriptSetupTools": true,
   "volar.completion.preferredTagNameCase": "pascal",
   "windicss.enableCodeFolding": false,
-  "prettier.enable": true, // I only use Prettier for manually formatting
+  "prettier.enable": false, // I only use Prettier for manually formatting
   "prettier.printWidth": 200,
   "prettier.semi": false,
   "prettier.singleQuote": true,
@@ -177,7 +174,7 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
-    "//": "Last update at 2023/2/9 22:57:28",
+    "//": "Last update at 2023/2/16 09:54:47",
     "*.asax": "$(capture).*.cs, $(capture).*.vb",
     "*.ascx": "$(capture).*.cs, $(capture).*.vb",
     "*.ashx": "$(capture).*.cs, $(capture).*.vb",
@@ -248,6 +245,21 @@
   },
   "window.autoDetectColorScheme": true,
   "workbench.startupEditor": "none",
-  "files.autoSave": "afterDelay",
-  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "cSpell.userWords": [
+    "axios"
+  ],
+  "editor.unicodeHighlight.allowedLocales": {
+    "zh-hans": true
+  },
+  "files.autoSave": "afterDelay"
 }
